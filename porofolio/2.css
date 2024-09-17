@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin:0 ;
+    font-family: 'Poppins',sans-serif;
+    padding: 0;
+    font-sizing:border-box;
+}
+body{
+    background:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background:white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    margin: 50px;
+
+}
+.container .left_side{
+     position: relative;
+     background: lightseagreen;
+     padding:40px ;
+
+}
+
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+
+}
+.profile .imgbox{
+      position: inherit;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+
+}
+
+.profile .imgbox img{
+    padding: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+
+}
+
+.profile h2 {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4rem;
+    text-transform: uppercase;
+
+}
+
+.profile h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+
+}
+.contactInfo{
+    padding-top: 40px;
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 600;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.contactInfo ul{
+    position: relative;
+
+}
+
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.contactInfo ul li icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: blue;
+}
+
+.contactInfo ul li span{
+    color: white;
+    font-weight: 300;
+}
+.container .right_side{
+    position: relative;
+    background:rgb(161, 97, 107);
+    padding:40px ;
+
+}
+
+.education li{
+    margin-bottom: 15px;
+
+
+}
+
+.education h5{
+    color: blue;
+    font-weight: 500;
+}
+
+.education h4:nth-child(2){
+    color: white;
+    font-weight: 500;
+}
+
+.Languages .percent{
+    position: relative;
+    width: 100%;   
+    height: 6px; 
+    background:#081921;
+    display: block;
+    margin-top: 5px;
+
+}
+
+.Languages .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: yellow;
+
+}
+
+.about{
+    margin-bottom:50px ;
+
+}
+
+.about:last-child{
+    margin-bottom: 0;
+
+}
+
+.tit{
+     color: #003147;
+     text-transform: 1px;
+     margin-bottom: 10px;
+}
+p{
+    color: aqua;
+}
